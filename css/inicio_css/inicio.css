@@ -1,0 +1,115 @@
+/* ====== Hero Section ====== */
+.hero {
+    height: 85vh; 
+    background: url("https://images.unsplash.com/photo-1605902711622-cfb43c4437d9") center/cover no-repeat;
+    color: #fff;
+    padding: 20px 0;
+    opacity: 0;
+    animation: fadeIn 1.5s forwards;
+}
+
+/* ====== Card de bienvenida ====== */
+.welcome-card {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    position: relative;
+}
+
+.eslogan {
+    margin-bottom: 5px; /* espacio mínimo antes de los botones */
+}
+
+/* ====== Logo más pequeño ====== */
+.logo-app {
+    max-width: 300px; /* tamaño reducido */
+    margin-bottom: 5px; 
+    animation: fadeInUp 1.2s ease-in-out;
+}
+
+/* ====== Columna izquierda ====== */
+.hero-left h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    animation: fadeInDown 1s ease-in-out;
+}
+
+.hero-left p {
+    font-size: 1.25rem;
+    max-width: 600px;
+    animation: fadeInUp 1.2s ease-in-out;
+}
+
+.hero .feature-icon {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+/* ====== Botones sólidos ====== */
+.hero .btn {
+    border-radius: 50px;
+    padding: 14px 28px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+    color: #fff;
+}
+
+/* Botón principal: azul */
+.hero .btn-primary {
+    background-color: #9ecf76;
+    border: none;
+}
+
+.hero .btn-primary:hover {
+    background-color: #9ecf76;
+    transform: scale(1.05);
+}
+
+/* Botón secundario: gris */
+.hero .btn-secondary {
+    background-color: #77b6b8;
+    border: none;
+}
+
+.hero .btn-secondary:hover {
+    background-color: #77b6b8;
+    transform: scale(1.05);
+}
+
+/* ====== Animaciones de entrada ====== */
+@keyframes fadeInDown {
+    from { opacity: 0; transform: translateY(-20px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+    to { opacity: 1; }
+}
+
+/* ====== Animación beneficios ====== */
+.animate-benefit {
+    position: relative;
+    opacity: 0;
+    top: 20px;
+}
+
+/* ====== Footer ====== */
+.footer {
+    font-size: 0.85rem;
+    padding: 10px 0;
+    background: #ffffff;
+    color: rgb(122, 155, 196);
+}
+
+/* ====== Ajuste botones y espaciado ====== */
+.d-grid.gap-2.col-6.mx-auto {
+    margin-top: 0; /* botones justo después del eslogan */
+    gap: 5px;
+}

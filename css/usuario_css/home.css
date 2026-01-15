@@ -1,0 +1,69 @@
+/* ====== Estilos generales ====== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+/* ====== Navbar ====== */
+.navbar {
+    border-radius: 0 0 12px 12px;
+}
+
+.navbar-brand {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+/* ====== Bienvenida ====== */
+h2 {
+    font-weight: 600;
+    color: #444;
+}
+
+/* ====== Tarjetas (cards) ====== */
+.card {
+    transition: all 0.3s ease-in-out;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Íconos dentro de las cards */
+.card i {
+    transition: transform 0.3s ease;
+}
+
+.card:hover i {
+    transform: scale(1.2);
+}
+
+/* Títulos de las tarjetas */
+.card h5 {
+    margin-top: 12px;
+    font-weight: 500;
+}
+
+/* ====== Botón cerrar sesión ====== */
+.btn-outline-light {
+    border-radius: 20px;
+    padding: 6px 15px;
+    font-weight: 500;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline-light:hover {
+    background-color: white;
+    color: #0d6efd;
+}
+
+/* ====== Responsive ====== */
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 15px;
+    }
+}
