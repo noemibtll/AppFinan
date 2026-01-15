@@ -1,0 +1,5 @@
+Hola equipo les dejo esta lista de cosas que tienen que hacer para poder trabajar en el proyecto 
+Mi conexion esta en el puerto 3307 el de ustedes lo mas seguro esque se encuentre en el 3306 para que lo tengan en mente cuando quieran conectarse a la bd 
+en mi repositorio local tengo el nombre de appfinanciera y no proyecto es algo que en su repositorio local cambian del archivo de web.config.php en 	$base_url = $url_server."/AppFinanciera"; solo ponen el nombre de la carpeta que esten usando 
+Si ya ven como AppFinanciera el repositorio ignoren el punto pasado 
+No se les olvide los cambio no subirlos al branch Main si no al branch main temporal 
